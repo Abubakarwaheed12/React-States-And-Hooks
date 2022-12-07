@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+    font-family: monospace;
+}
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.comp h1{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.comp button{
+    padding: 12px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+}
+.comp button:hover{
+    cursor: pointer;
+}
